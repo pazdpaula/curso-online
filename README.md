@@ -1,4 +1,4 @@
-# curso-online[index.html](https://github.com/user-attachments/files/25531703/index.html)
+[index.html](https://github.com/user-attachments/files/25531703/index.html)
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -27,14 +27,32 @@ h1, h2 {
 }
 
 .hero {
-    text-align: center;
-    background: #0b3d91;
+    background: linear-gradient(135deg, #0b3d91, #082c6c);
     color: white;
-    padding: 60px 20px;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
 }
 
 .hero h1 {
-    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-top: 25px;
+    font-size: 14px;
+    opacity: 0.9;
 }
 
 .btn {
@@ -76,12 +94,30 @@ ul {
 
 <!-- HERO -->
 <section class="hero">
-    <h1>O método que prepara alunos há 14 anos agora também online</h1>
-    <p>
-        Preparação estruturada, com material autoral e metodologia consolidada
-        em sala de aula.
-    </p>
-    <a href="#" class="btn">Quero garantir minha vaga</a>
+   <div class="hero-content">
+
+        <h1>
+        A preparação que já aprovou alunos ao longo de 14 anos,<br>
+        agora disponível também no formato online.
+        </h1>
+
+        <p class="subtitle">
+        Método desenvolvido em sala de aula, com material autoral e
+        preparação estruturada para alunos que buscam desempenho real.
+        </p>
+
+        <a href="#" class="btn">
+        Garantir vaga na próxima turma
+        </a>
+
+        <p class="info">
+        ✔ Professores especialistas &nbsp;&nbsp;
+        ✔ Método consolidado &nbsp;&nbsp;
+        ✔ Estude de qualquer lugar
+        </p>
+
+    </div>
+
 </section>
 
 <div class="container">
